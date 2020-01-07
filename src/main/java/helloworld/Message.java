@@ -8,8 +8,16 @@ import javax.persistence.Id;
 public class Message {
     @Id
     @GeneratedValue
-    private long ID;
+    private long Id;
     private String text;
+
+    public long getId() {
+        return Id;
+    }
+
+    public void setId(long id) {
+        Id = id;
+    }
 
     public String getText() {
         return text;
