@@ -9,5 +9,8 @@
         <module name="hipernate_vs_jpa" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hipernate_vs_jpa" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
