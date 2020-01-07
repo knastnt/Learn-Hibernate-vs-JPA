@@ -11,6 +11,8 @@
         <property name="hibernate.connection.url">jdbc:mysql://sql7.freesqldatabase.com:3306/sql7318027</property>
         <property name="hibernate.connection.username">sql7318027</property>
         <property name="hibernate.connection.password">IZMeF5EKf6</property>
+
+<!--        Что делать с БД при запуске приложения-->
         <property name="hibernate.hbm2ddl.auto">create</property>
 
         <!-- JDBC connection pool (use the built-in) -->
