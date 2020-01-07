@@ -1,0 +1,24 @@
+<persistence
+        version="2.1"
+        xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+http://xmlns.jcp.org/xml/ns/persistence_2_1.xsd">
+<!--    Настройка единицы хранения-->
+    <persistence-unit name="HelloWorldPU">
+<!--        Соединение с базой данных-->
+        <jta-data-source>myDS</jta-data-source>
+        <class>org.jpwh.model.helloworld.Message</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+<!--        Набор свойств-->
+        <properties>
+<!--            Удалить схему и создать заново-->
+            <property
+                    name="javax.persistence.schema-generation.database.action"
+                    value="drop-and-create"/>
+<!--            Журналирование SQL запросов-->
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.use_sql_comments" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
