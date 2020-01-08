@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="db53cb65-de46-492d-9c05-cbfe6a6fa63f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helloworld/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helloworld/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helloworld/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helloworld/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helloworld/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helloworld/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helloworld/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helloworld/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

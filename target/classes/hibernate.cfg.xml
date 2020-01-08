@@ -12,7 +12,7 @@
         <property name="hibernate.connection.username">sql7318027</property>
         <property name="hibernate.connection.password">IZMeF5EKf6</property>
 
-<!--        Что делать с БД при запуске приложения-->
+<!--        Что делать с БД при запуске приложения. update, create и т.д.-->
         <property name="hibernate.hbm2ddl.auto">create</property>
 
         <!-- JDBC connection pool (use the built-in) -->
@@ -20,6 +20,8 @@
 
         <!-- SQL dialect -->
 <!--        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>-->
+
+<!--        Устанавливать диаликт согласно типу и версии БД-->
         <property name="dialect">org.hibernate.dialect.MySQL55Dialect</property>
 
 <!--                <property name="hbm2ddl.auto">create</property>-->
