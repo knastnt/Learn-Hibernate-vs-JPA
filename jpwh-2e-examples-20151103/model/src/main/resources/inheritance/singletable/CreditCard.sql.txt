@@ -1,6 +1,0 @@
-select
-    ID, OWNER, EXPMONTH, EXPYEAR, CARDNUMBER
-from
-    BILLINGDETAILS
-where
-    BD_TYPE='CC'

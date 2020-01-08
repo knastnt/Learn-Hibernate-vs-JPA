@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hipernate_vs_jpa.iml" filepath="$PROJECT_DIR$/hipernate_vs_jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate_vs_jpa.iml" filepath="$PROJECT_DIR$/hibernate_vs_jpa.iml" />
     </modules>
   </component>
 </project>

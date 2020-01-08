@@ -1,4 +1,0 @@
-select
-    ID, OWNER, ACCOUNT, BANKNAME, SWIFT
-from
-    BANKACCOUNT
