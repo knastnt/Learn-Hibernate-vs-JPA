@@ -9,29 +9,10 @@ import org.hibernate.tool.hbm2ddl.ColumnMetadata;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
 
 public class Main {
     public static void main(String[] args) {
-        Message message = new Message();
-        Message message2 = new Message();
-        message.setText("Hello world!");
-        message2.setText("Hello world 2!");
-        System.out.println(message.getText());
 
-
-        Configuration configuration = new Configuration().configure();
-        SessionFactory sessionFactory = configuration.buildSessionFactory();
-
-
-
-        EntityManager entityManager = sessionFactory.createEntityManager();
-        EntityTransaction entityTransaction = entityManager.getTransaction();
-
-        entityTransaction.begin();
-        entityManager.persist(message);
-        entityManager.persist(message2);
-        entityTransaction.commit();
-
-        sessionFactory.close();
     }
 }
