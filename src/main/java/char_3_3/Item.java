@@ -12,14 +12,38 @@ import java.util.Date;
 public class Item {
     @Id
     @GeneratedValue
-    protected int id;
+    private int id;
     @NotNull
     @Size(
             min = 2,
             max = 202,
             message = "размер строки не проходит проверку"
     )
-    protected String name;
+    private String name;
+    @NotNull
     @Future
-    protected Date auctionEnd;
+    private Date auctionEnd;
+
+    private Item() {
+    }
+
+    public Item(String name) {
+        this.name = name;
+    }
+
+    public void setAuctionEnd(Date auctionEnd) {
+        this.auctionEnd = auctionEnd;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Date getAuctionEnd() {
+        return auctionEnd;
+    }
 }
