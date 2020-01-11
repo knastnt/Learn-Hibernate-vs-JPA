@@ -43,10 +43,12 @@ public class Char_3_3 {
             em.persist(item);
 
             em.getTransaction().commit();
+
+            Assert.fail("Досюда не должно дойти, т.к. коммит должен кинуть ошибку валидации");
         }catch (RollbackException e){
             if (e.getCause() instanceof ConstraintViolationException){
                 for (ConstraintViolation<?> violation : ((ConstraintViolationException) e.getCause()).getConstraintViolations()) {
-                    System.out.println(violation .getPropertyPath() + ": " + violation.getMessage());
+                    System.out.println(violation.getPropertyPath() + ": " + violation.getMessage());
                 }
             }else{
                 throw e;

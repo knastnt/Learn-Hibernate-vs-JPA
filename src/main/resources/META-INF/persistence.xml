@@ -12,6 +12,12 @@
         <class>javarushjpa.classes.Category</class>
         <class>javarushjpa.classes.Topic</class>
 
+        <!-- Настройки валидации
+        AUTO валидация выполняется только если есть соответствующая зависимость
+        CALLBACK валидация выполняется всегда
+        NONE валидация не выполняется -->
+        <validation-mode>CALLBACK</validation-mode>
+
         <properties>
             <!-- JDBC драйвер -->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
