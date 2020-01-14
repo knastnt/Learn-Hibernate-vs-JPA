@@ -42,4 +42,42 @@
             <property name="hibernate.hbm2ddl.auto" value="create"/>
         </properties>
     </persistence-unit>
+
+
+    <persistence-unit name="DB_on_work_computer">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <class>char_3_3.Item</class>
+        <class>helloworld.Message</class>
+
+        <!-- Настройки валидации
+        AUTO валидация выполняется только если есть соответствующая зависимость
+        CALLBACK валидация выполняется всегда
+        NONE валидация не выполняется -->
+        <validation-mode>CALLBACK</validation-mode>
+
+        <properties>
+            <!-- JDBC драйвер -->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <!-- URL для подключения к базе данных -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_test?serverTimezone=UTC"/>
+            <!-- Имя пользователя БД -->
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <!-- Пароль пользователя БД -->
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <!-- Показывать SQL запросы перед выполнением -->
+            <property name="hibernate.show_sql" value="true"/>
+            <!--        Добавлять комменты к запросам. х.з. ничего не меняется-->
+            <!--        <property name="hibernate.user_sql_comments" value="true"/>-->
+            <!-- Форматировать SQL-запросы -->
+            <property name="hibernate.format_sql" value="true"/>
+            <!-- Диалект языка SQL -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect"/>
+            <!-- Закрывать ли подключение к БД после сеанса работы -->
+            <property name="hibernate.connection.shutdown" value="true"/>
+            <!-- Стратегия, по которой Hibernate меняет схему (структуру БД) -->
+            <!-- create-drop - пересоздание БД, т.к. это модульный тест -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
 </persistence>

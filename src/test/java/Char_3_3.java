@@ -35,7 +35,8 @@ public class Char_3_3 {
         EntityManagerFactory emf = null;
         EntityManager em = null;
         try {
-            emf = Persistence.createEntityManagerFactory("HelloWorldPU");
+//            emf = Persistence.createEntityManagerFactory("HelloWorldPU");
+            emf = Persistence.createEntityManagerFactory("DB_on_work_computer");
             em = emf.createEntityManager();
 
             em.getTransaction().begin();
