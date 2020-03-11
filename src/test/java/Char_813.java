@@ -16,9 +16,12 @@ public class Char_813 {
         User813 user813 = new User813();
         Address813 address813 = new Address813();
 
-        //user813.setAddress813(address813);
+        user813.setAddress813(address813);
         address813.setStreet("первак");
 
+
+        User813 user813_2 = new User813();
+        user813_2.setAddress813(address813);
 
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("DB_on_work_computer");
         EntityManager em = emf.createEntityManager();
@@ -26,6 +29,7 @@ public class Char_813 {
         em.getTransaction().begin();
 
         em.persist(user813);
+        em.persist(user813_2);
 
         em.getTransaction().commit();
 

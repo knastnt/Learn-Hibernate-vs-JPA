@@ -13,7 +13,7 @@ public class User813 {
             //optional = false,
             cascade = CascadeType.PERSIST
     )
-    @JoinColumn(unique = true)
+//    @JoinColumn(unique = true) //чтобы не повторялся адрес
     private Address813 address813; //лэйзи лоад энд мэй би нилл
 
 
