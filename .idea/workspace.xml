@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db53cb65-de46-492d-9c05-cbfe6a6fa63f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/char_73/Bid73.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/char_73/Bid73.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/char_73/Item73.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/char_73/Item73.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Char_10_3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Char_10_3_4.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +27,23 @@
       <file leaf-file-name="Char_10_3_4.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Char_10_3_4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="478">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item73.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/char_73/Item73.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,9 +135,9 @@
         <option value="$PROJECT_DIR$/src/main/java/char_813/Address813.java" />
         <option value="$PROJECT_DIR$/src/test/java/Char_813.java" />
         <option value="$PROJECT_DIR$/src/main/java/char_813/User813.java" />
-        <option value="$PROJECT_DIR$/src/main/java/char_73/Item73.java" />
         <option value="$PROJECT_DIR$/src/main/java/char_73/Bid73.java" />
         <option value="$PROJECT_DIR$/src/test/java/Char_10.java" />
+        <option value="$PROJECT_DIR$/src/main/java/char_73/Item73.java" />
         <option value="$PROJECT_DIR$/src/test/java/Char_10_3_4.java" />
       </list>
     </option>
@@ -425,48 +440,47 @@
       <workItem from="1578961731655" duration="3080000" />
       <workItem from="1579062733800" duration="7765000" />
       <workItem from="1579219629933" duration="69000" />
-      <workItem from="1583884955985" duration="16570000" />
+      <workItem from="1583884955985" duration="17853000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Char_10 - 2020.03.12 at 09h 15m 48s.xml">
-      <configuration name="Char_10" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_10 - 2020.03.12 at 09h 22m 55s.xml">
-      <configuration name="Char_10" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_10 - 2020.03.12 at 09h 23m 42s.xml">
-      <configuration name="Char_10" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_10 - 2020.03.12 at 09h 24m 39s.xml">
-      <configuration name="Char_10" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_10 - 2020.03.12 at 09h 26m 15s.xml">
-      <configuration name="Char_10" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_10 - 2020.03.12 at 09h 31m 24s.xml">
-      <configuration name="Char_10" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_10 - 2020.03.12 at 09h 32m 17s.xml">
-      <configuration name="Char_10" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_10_3_4 - 2020.03.12 at 13h 35m 04s.xml">
-      <configuration name="Char_10_3_4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Char_10_3_4 - 2020.03.12 at 13h 39m 27s.xml">
       <configuration name="Char_10_3_4" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Char_10_3_4 - 2020.03.12 at 13h 40m 19s.xml">
       <configuration name="Char_10_3_4" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Char_10_3_4 - 2020.03.12 at 13h 41m 39s.xml">
+      <configuration name="Char_10_3_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_10_3_4 - 2020.03.12 at 13h 42m 04s.xml">
+      <configuration name="Char_10_3_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_10_3_4 - 2020.03.12 at 14h 19m 35s.xml">
+      <configuration name="Char_10_3_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_10_3_4 - 2020.03.12 at 14h 21m 15s.xml">
+      <configuration name="Char_10_3_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_10_3_4 - 2020.03.12 at 14h 22m 23s.xml">
+      <configuration name="Char_10_3_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_10_3_4 - 2020.03.12 at 14h 23m 17s.xml">
+      <configuration name="Char_10_3_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_10_3_4 - 2020.03.12 at 14h 24m 38s.xml">
+      <configuration name="Char_10_3_4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_10_3_4 - 2020.03.12 at 14h 25m 02s.xml">
+      <configuration name="Char_10_3_4" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27484000" />
+    <option name="totallyTimeSpent" value="28767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -559,12 +573,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Char_10_3_4.java</url>
-          <line>21</line>
+          <line>58</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Char_10_3_4.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -908,17 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/char_73/Item73.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/char_73/Bid73.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -951,6 +960,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/char_73/Item73.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13/junit-4.13.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -960,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Char_10_3_4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="478">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>

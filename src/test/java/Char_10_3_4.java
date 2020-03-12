@@ -49,4 +49,33 @@ public class Char_10_3_4 {
 
         emf.close();
     }
+
+    @Test
+    public void detached2(){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("DB_on_work_computer");
+
+        EntityManager em = emf.createEntityManager();
+
+        Item73 item73 = new Item73();
+        item73.setId(14);
+        item73.setName("вручную созданный");
+
+        em.getTransaction().begin();
+
+//        try {
+//            em.persist(item73);
+//        }catch (Exception e){
+//            System.out.println("Ааааай, так никак");
+//        }
+        Item73 item73merged = em.merge(item73); // а так - вполне
+
+        item73merged.setName("вручную созданный3"); //да
+        item73.setName("вручную созданный2");   //неа
+
+        em.getTransaction().commit();
+
+
+        em.close();
+        emf.close();
+    }
 }
