@@ -23,4 +23,16 @@ public class Bid73 {
 
     private Bid73() {
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public BigDecimal getValue() {
+        return value;
+    }
+
+    public Item73 getItem73() {
+        return item73;
+    }
 }
