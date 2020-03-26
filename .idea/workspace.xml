@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db53cb65-de46-492d-9c05-cbfe6a6fa63f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/char_13_3_1/Bid1331.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/char_13_3_1/Item1331.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate_vs_jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate_vs_jpa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Char_13_3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Char_13_3_1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Char_11_1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Char_11_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Char_13_3_1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Char_13_3_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="183" column="62" selection-start-line="183" selection-start-column="62" selection-end-line="183" selection-end-column="62" />
+            <state relative-caret-position="131">
+              <caret line="216" column="51" lean-forward="true" selection-start-line="216" selection-start-column="51" selection-end-line="216" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -371,44 +376,44 @@
       <workItem from="1579062733800" duration="7765000" />
       <workItem from="1579219629933" duration="69000" />
       <workItem from="1583884955985" duration="22996000" />
-      <workItem from="1585098213106" duration="12875000" />
+      <workItem from="1585098213106" duration="20780000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 15m 44s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 52m 35s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 20m 56s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 53m 19s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 24m 19s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 55m 48s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 24m 36s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.26 at 08h 12m 38s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 25m 45s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.26 at 08h 19m 31s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 31m 22s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.26 at 08h 49m 13s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 33m 30s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.26 at 10h 41m 00s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 34m 38s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.26 at 11h 01m 07s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 43m 51s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.26 at 11h 10m 05s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 48m 59s.xml">
+    <history-entry file="Char_13_3_1 - 2020.03.26 at 16h 02m 13s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46785000" />
+    <option name="totallyTimeSpent" value="54690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
@@ -510,11 +515,21 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>criteriaQuery.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>criteriaQuery</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>((SessionImpl) session).getInterceptor()</expression-string>
         <language-id>JAVA</language-id>
@@ -780,13 +795,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/char13_2_2.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Char_11_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -921,10 +929,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Char_11_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Char_13_3_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="183" column="62" selection-start-line="183" selection-start-column="62" selection-end-line="183" selection-end-column="62" />
+        <state relative-caret-position="131">
+          <caret line="216" column="51" lean-forward="true" selection-start-line="216" selection-start-column="51" selection-end-line="216" selection-end-column="51" />
         </state>
       </provider>
     </entry>

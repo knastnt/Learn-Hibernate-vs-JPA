@@ -13,10 +13,10 @@ import org.hibernate.envers.query.AuditQuery;
 import org.hibernate.jpa.AvailableSettings;
 import org.junit.Test;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import javax.transaction.UserTransaction;
 import java.time.LocalTime;
 import java.util.Date;
@@ -189,6 +189,53 @@ public class Char_13_3_1 {
         em.unwrap(Session.class).replicate(item1331, ReplicationMode.OVERWRITE);
 
         tx.commit();
+
+
+        if(em != null && em.isOpen()){
+            em.close();
+        }
+        emf.close();
+    }
+
+    @Test
+    public void enverstest7(){
+
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("DB_on_work_computer");
+
+
+
+        EntityManager em = emf.createEntityManager();
+
+        CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder();
+
+//        EntityTransaction tx = em.getTransaction();
+//        tx.begin();
+
+        CriteriaQuery criteriaQuery = criteriaBuilder.createQuery();
+        criteriaQuery.select(criteriaQuery.from(Item1331.class));
+        Query query1 = em.createQuery(criteriaQuery);
+        query1.setFirstResult(10).setMaxResults(7);
+        List<Item1331> list1 = query1.getResultList();
+
+
+
+        Query query2 = em.createQuery("select i from Item1331 i where i.id = :id").setParameter("id", 81);
+        Item1331 item2 = (Item1331) query2.getSingleResult();
+
+
+
+        TypedQuery<Item1331> query3 = em.createQuery("select i from Item1331 i where i.id = :id", Item1331.class).setParameter("id", 81);
+        Item1331 item3 = query3.getSingleResult();
+
+
+
+        CriteriaBuilder cb = em.getCriteriaBuilder();
+        CriteriaQuery<Item1331> criteria = cb.createQuery(Item1331.class);
+        Root<Item1331> i = criteria.from(Item1331.class);
+        criteria.select(i).where(cb.equal(i.get("id"), 81));
+        TypedQuery<Item1331> query4 = em.createQuery(criteria);
+        Item1331 item4 = query4.getSingleResult();
+//        tx.commit();
 
 
         if(em != null && em.isOpen()){
