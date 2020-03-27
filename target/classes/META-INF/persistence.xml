@@ -78,7 +78,7 @@
             <!-- Стратегия, по которой Hibernate меняет схему (структуру БД) -->
             <!-- create-drop - пересоздание БД, т.к. это модульный тест -->
             <property name="hibernate.hbm2ddl.auto" value="update"/>
-            <!-- стр.420 в книге -->
+            <!-- стр.420 в книге. включение комментариев к sql выражениям -->
             <property name="hibernate.use_sql_comments" value="true"/>
         </properties>
     </persistence-unit>

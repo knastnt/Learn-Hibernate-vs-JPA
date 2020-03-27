@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db53cb65-de46-492d-9c05-cbfe6a6fa63f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,32 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Char_11_1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Char_11_1.java">
+      <file leaf-file-name="Char_15.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Char_15.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="612">
+              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+              <folding>
+                <element signature="e#1458#1464#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Char_13_3_1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Char_13_3_1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Char_13_3_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="202" column="94" selection-start-line="202" selection-start-column="94" selection-end-line="202" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="81" column="67" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
-              <folding>
-                <element signature="n#persistence-unit#0;n#persistence#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="606">
+              <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="236" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -100,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/main/java/char_13_3_1/Item1331.java" />
         <option value="$PROJECT_DIR$/src/test/java/Char_13_3_1.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Char_15.java" />
       </list>
     </option>
   </component>
@@ -147,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,7 +223,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -243,20 +236,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kostya\IdeaProjects\hibernate_vs_jpa\src\main\java\char_4" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kostya\IdeaProjects\hibernate_vs_jpa\src\main\java\char_13_3_1" />
       <recent name="C:\Users\kostya\IdeaProjects\hibernate_vs_jpa\src\main\java" />
-      <recent name="C:\Users\kostya\IdeaProjects\hibernate_vs_jpa\src\main\resources\META-INF" />
-      <recent name="C:\Users\kostya\IdeaProjects\hipernate_vs_jpa\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="char13_2_2" />
       <recent name="char_4" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kostya\IdeaProjects\hibernate_vs_jpa\src\main\java\char_13_3_1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kostya\IdeaProjects\hibernate_vs_jpa\src\main\java\char_4" />
       <recent name="C:\Users\kostya\IdeaProjects\hibernate_vs_jpa\src\main\java" />
+      <recent name="C:\Users\kostya\IdeaProjects\hibernate_vs_jpa\src\main\resources\META-INF" />
+      <recent name="C:\Users\kostya\IdeaProjects\hipernate_vs_jpa\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,24 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Char_13_3_1">
-    <configuration name="Char_10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hibernate_vs_jpa" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Char_10" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.Char_15">
     <configuration name="Char_10_3_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hibernate_vs_jpa" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -357,20 +333,37 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Char_15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate_vs_jpa" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Char_15" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Char_10" />
       <item itemvalue="JUnit.Char_10_3_4" />
       <item itemvalue="JUnit.Char_11_1" />
       <item itemvalue="JUnit.Char_13_2_2" />
       <item itemvalue="JUnit.Char_13_3_1" />
+      <item itemvalue="JUnit.Char_15" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Char_15" />
         <item itemvalue="JUnit.Char_13_3_1" />
         <item itemvalue="JUnit.Char_13_2_2" />
         <item itemvalue="JUnit.Char_11_1" />
         <item itemvalue="JUnit.Char_10_3_4" />
-        <item itemvalue="JUnit.Char_10" />
       </list>
     </recent_temporary>
   </component>
@@ -389,23 +382,12 @@
       <workItem from="1579219629933" duration="69000" />
       <workItem from="1583884955985" duration="22996000" />
       <workItem from="1585098213106" duration="20780000" />
-      <workItem from="1585265610690" duration="874000" />
+      <workItem from="1585265610690" duration="2751000" />
+      <workItem from="1585274139617" duration="266000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 52m 35s.xml">
-      <configuration name="Char_13_3_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 53m 19s.xml">
-      <configuration name="Char_13_3_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.25 at 15h 55m 48s.xml">
-      <configuration name="Char_13_3_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Char_13_3_1 - 2020.03.26 at 08h 12m 38s.xml">
-      <configuration name="Char_13_3_1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Char_13_3_1 - 2020.03.26 at 08h 19m 31s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
@@ -424,9 +406,21 @@
     <history-entry file="Char_13_3_1 - 2020.03.26 at 16h 02m 13s.xml">
       <configuration name="Char_13_3_1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Char_13_3_1 - 2020.03.27 at 09h 51m 14s.xml">
+      <configuration name="Char_13_3_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_13_3_1 - 2020.03.27 at 09h 51m 42s.xml">
+      <configuration name="Char_13_3_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_15 - 2020.03.27 at 09h 56m 38s.xml">
+      <configuration name="Char_15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Char_15 - 2020.03.27 at 09h 58m 07s.xml">
+      <configuration name="Char_15" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55564000" />
+    <option name="totallyTimeSpent" value="57707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
@@ -434,7 +428,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32934782" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -446,7 +439,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -454,13 +447,14 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4173913" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4173913" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32934782" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,8 +521,14 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Char_15.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -562,13 +562,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/char_4/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/char_4/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -894,18 +887,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="81" column="67" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
-          <folding>
-            <element signature="n#persistence-unit#0;n#persistence#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="291">
+          <caret line="80" column="73" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Char_13_3_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="202" column="94" selection-start-line="202" selection-start-column="94" selection-end-line="202" selection-end-column="94" />
+        <state relative-caret-position="606">
+          <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="236" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Char_15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+          <folding>
+            <element signature="e#1458#1464#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
